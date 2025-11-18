@@ -2,8 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Main
+  - Enemy
+  - Collectable
+  - Interactable
+  - Destructible
+  - Door
+  - Wall
+  - NPC
+  - TriggerObject
   layers:
   - Default
   - TransparentFX
@@ -11,14 +20,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Weapon-P
+  - Weapon-E
+  - Items
+  - HeroUnit
+  - EnemyUnit
+  - AllyUnit
   - 
   - 
   - 
@@ -41,3 +50,38 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 3620294893
+    locked: 0
+  - name: Ground
+    uniqueID: 3140155473
+    locked: 0
+  - name: Wall1
+    uniqueID: 3108861701
+    locked: 0
+  - name: Wall2
+    uniqueID: 295453371
+    locked: 0
+  - name: Top
+    uniqueID: 4211526139
+    locked: 0
+  - name: Decor
+    uniqueID: 2657919133
+    locked: 0
+  - name: Triggers
+    uniqueID: 3114568439
+    locked: 0
+  - name: Items
+    uniqueID: 2741823663
+    locked: 0
+  - name: Inventory
+    uniqueID: 2792807859
+    locked: 0
+  - name: Weapons
+    uniqueID: 210265539
+    locked: 0
+  - name: Character
+    uniqueID: 2393872685
+    locked: 0
+  m_RenderingLayers:
+  - Default
